@@ -1,0 +1,8 @@
+# This file configures Netlify to handle single-page application (SPA) routing.
+# It tells Netlify to redirect all paths to the main index.html file,
+# allowing the Flutter router to handle the navigation.
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
